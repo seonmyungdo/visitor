@@ -11,7 +11,7 @@ contract Visit {
     function getTotalCount() public view returns (uint) {
         return members.length;
     }
-    
+
 
     function getMemberInfo(address sender) public view returns (uint) {
         Member memory m = member_map[sender];
